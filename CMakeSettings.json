@@ -1,0 +1,128 @@
+{
+  "configurations": [
+    {
+      "name": "x64-Release",
+      "generator": "Ninja",
+      "configurationType": "RelWithDebInfo",
+      "inheritEnvironments": [
+        "msvc_x64_x64"
+      ],
+      "buildRoot": "${workspaceRoot}\\build\\${name}",
+      "installRoot": "${env.ProgramFiles}\\mozjpeg",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "-v",
+      "ctestCommandArgs": "",
+      "intelliSenseMode": "windows-msvc-x64",
+      "variables": [
+        {
+          "name": "CMAKE_ASM_NASM_COMPILER",
+          "type": "FILEPATH",
+          "value": "C:\\nasm-2.14.02\\nasm.exe"
+        },
+        {
+          "name": "PNG_LIBRARY",
+          "type": "FILEPATH",
+          "value": "${env.ProgramFiles}\\libpng\\lib\\libpng16.lib"
+        },
+        {
+          "name": "PNG_PNG_INCLUDE_DIR",
+          "type": "PATH",
+          "value": "${env.ProgramFiles}\\libpng\\include"
+        }
+      ]
+    },
+    {
+      "name": "x64-Debug",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "inheritEnvironments": [
+        "msvc_x64_x64"
+      ],
+      "buildRoot": "${workspaceRoot}\\build\\${name}",
+      "installRoot": "${env.ProgramFiles}\\mozjpeg",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "-v",
+      "ctestCommandArgs": "",
+      "intelliSenseMode": "windows-msvc-x64",
+      "variables": [
+        {
+          "name": "CMAKE_ASM_NASM_COMPILER",
+          "type": "FILEPATH",
+          "value": "C:\\nasm-2.14.02\\nasm.exe"
+        },
+        {
+          "name": "PNG_LIBRARY",
+          "type": "FILEPATH",
+          "value": "${env.ProgramFiles}\\libpng\\lib\\libpng16.lib"
+        },
+        {
+          "name": "PNG_PNG_INCLUDE_DIR",
+          "type": "PATH",
+          "value": "${env.ProgramFiles}\\libpng\\include"
+        }
+      ]
+    },
+    {
+      "name": "x86-Release",
+      "generator": "Ninja",
+      "configurationType": "RelWithDebInfo",
+      "inheritEnvironments": [
+        "msvc_x86_x64"
+      ],
+      "buildRoot": "${workspaceRoot}\\build\\${name}",
+      "installRoot": "${env.ProgramFiles}\\mozjpeg",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "-v",
+      "ctestCommandArgs": "",
+      "intelliSenseMode": "windows-msvc-x86",
+      "variables": [
+        {
+          "name": "CMAKE_ASM_NASM_COMPILER",
+          "type": "FILEPATH",
+          "value": "C:\\nasm-2.14.02\\nasm.exe"
+        },
+        {
+          "name": "PNG_LIBRARY",
+          "type": "FILEPATH",
+          "value": "${env.ProgramFiles}\\libpng\\lib\\libpng16.lib"
+        },
+        {
+          "name": "PNG_PNG_INCLUDE_DIR",
+          "type": "PATH",
+          "value": "${env.ProgramFiles}\\libpng\\include"
+        }
+      ]
+    },
+    {
+      "name": "x86-Debug",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "inheritEnvironments": [
+        "msvc_x86_x64"
+      ],
+      "buildRoot": "${workspaceRoot}\\build\\${name}",
+      "installRoot": "${env.ProgramFiles}\\mozjpeg",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "-v",
+      "ctestCommandArgs": "",
+      "intelliSenseMode": "windows-msvc-x86",
+      "variables": [
+        {
+          "name": "CMAKE_ASM_NASM_COMPILER",
+          "type": "FILEPATH",
+          "value": "C:\\nasm-2.14.02\\nasm.exe"
+        },
+        {
+          "name": "PNG_LIBRARY",
+          "type": "FILEPATH",
+          "value": "${env.ProgramFiles}\\libpng\\lib\\libpng16.lib"
+        },
+        {
+          "name": "PNG_PNG_INCLUDE_DIR",
+          "type": "PATH",
+          "value": "${env.ProgramFiles}\\libpng\\include"
+        }
+      ]
+    }
+  ]
+}
